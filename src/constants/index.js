@@ -1,11 +1,11 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/imagenes";
-import { verde1, verde2, verde3, kirbys1, kirbys2, picachu, snorlax2  } from "../assets/images";
+import { verde1, kirbys1, picachu, snorlax2, corona1, conejo, pinguino  } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Inicio" },
-    { href: "#about-us", label: "Nosotros" },
     { href: "#products", label: "Productos" },
+    { href: "#about-us", label: "Nosotros" },
     { href: "#contact-us", label: "Contactanos" },
 ];
 
@@ -26,15 +26,15 @@ export const shoes = [
 
 export const peluches = [
     {
-        thumbnail: thumbnailShoe1,
+        thumbnail: picachu,
         bigShoe: picachu,
     },
     {
-        thumbnail: thumbnailShoe2,
+        thumbnail: kirbys1,
         bigShoe: kirbys1,
     },
     {
-        thumbnail: thumbnailShoe3,
+        thumbnail: snorlax2,
         bigShoe: snorlax2,
     },
 ];
@@ -68,73 +68,96 @@ export const products = [
     },
 ];
 
+export const productsP = [
+    {
+        imgURL: verde1,
+        name: "MineCraft Zombie",
+        price: "$8.00",
+    },
+    {
+        imgURL: corona1,
+        name: "Corona",
+        price: "$5.00",
+    },
+    {
+        imgURL: conejo,
+        name: "Conejo",
+        price: "$9.50",
+    },
+    {
+        imgURL: pinguino,
+        name: "King Bomb",
+        price: "$10.00",
+    },
+];
+
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "Delivery",
+        subtext: "Disfrute de compras sin problemas con nuestro servicio de envío gratuito."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Variados Metodos de Pago",
+        subtext: "Ofrecemeos varias opciones de pago como Binance, Zelle, Pago Movil, Divisa"
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Nos Encanta ayudarte",
+        subtext: "Nuestro dedicado equipo está aquí para ayudarle en lo que necesites de nuestros productos"
     },
 ];
 
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Josemrto Martinez',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Genial toda su mercancia, me encanta, 100% recomendados, vayan y comprenles ^_^"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Brenda de Luna',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Bello todo, lo quiero todo jajajaja, que peluches mas hermosos!!!"
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Productos",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Pokemon", link: "/" },
+            { name: "MineCraft", link: "/" },
+            { name: "Nintendo", link: "/" },
+            { name: "Naruto", link: "/" },
+            { name: "Dragon Ball", link: "/" },
+            { name: "One Piece", link: "/" },
         ],
     },
     {
-        title: "Help",
+        title: "Ayuda",
         links: [
-            { name: "About us", link: "/" },
+            { name: "Nosotros", link: "#about-us" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Como Trabajamos", link: "/" },
+            { name: "Politicas de Privacidad", link: "/" },
+            { name: "Politicas de Pago", link: "/" },
         ],
     },
     {
-        title: "Get in touch",
+        title: "Contacto",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "francelys@chelyshop.com", link: "mailto:customer@chelyshop.com" },
+            { name: "+58554862354", link: "tel:+58554862354" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", link: "https://www.facebook.com/profile.php?id=100085555581181" },
+    { src: twitter, alt: "twitter logo", link: "/"},
+    { src: instagram, alt: "instagram logo", link: "https://www.instagram.com/_chely_shop_/?hl=es" },
 ];

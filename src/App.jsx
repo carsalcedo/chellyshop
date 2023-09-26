@@ -7,7 +7,8 @@ const App = () => {
   return (
     <main className='relative'>
      <Navi/>
-      <section className='xl:padding-l wide:padding-r padding-b'>
+      {/* <section className='padding'>*/}
+      <section className='xl:padding-l padding wide:padding-r padding-b'>
         <Hero/>
       </section>
       <section className='padding'>
