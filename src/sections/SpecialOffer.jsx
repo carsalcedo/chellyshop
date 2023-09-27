@@ -26,7 +26,7 @@ const SpecialOffer = () => {
       </p>
       <p className='mt-6 info-text'>
         Desde ya pueden contactarnos y solicitar pedidos para ese dia y retirarlos durante el evento. Nosotros estaremos gustos de recibir sus encargos.
-        El evento se realizrá en el Salon de FUNDACITE Urb. Villa Cristobal Colón, via El Peñon.
+        El evento se realizará en el Salon de FUNDACITE Urb. Villa Cristobal Colón, via El Peñon.
       </p>
       <div className='mt-11 flex flex-wrap gap-4'>
         <Button label='Encargar ahora' iconURL={arrowRight} />
