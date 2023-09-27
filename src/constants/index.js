@@ -3,10 +3,10 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 import { verde1, kirbys1, picachu, snorlax2, corona1, conejo, pinguino  } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Inicio" },
-    { href: "#products", label: "Productos" },
-    { href: "#about-us", label: "Nosotros" },
-    { href: "#contact-us", label: "Contactanos" },
+    { href: "#home", label: "Inicio", current: true },
+    { href: "#products", label: "Productos", current: false },
+    { href: "#about-us", label: "Nosotros", current: false },
+    { href: "#contact-us", label: "Contactanos", current: false },
 ];
 
 export const shoes = [
